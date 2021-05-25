@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    width: 300px;
+    height: 450px;
+    background-color: black;
+    color: rgb(238, 238, 0);
+    text-align: center;
+    transform: translatex(-50%);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+
+button {
+    border: solid 1px white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    background-color: black;
+    color: rgb(238, 238, 0);
+    top: 68%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+#resu {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    align-self: center;
+    width: 200px;
+    height: 100px;
+    left: 50%;
+    top: 76%;
+    transform: translatex(-50%);
+    background-color: gray;
+    border-radius: 5px;
+}
+
+
